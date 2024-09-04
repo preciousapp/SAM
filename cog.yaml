@@ -1,4 +1,4 @@
-image: "r8.im/yuval-alaluf/sam"
+image: "r8.im/preciousapp/sam"
 build:
   gpu: true
   python_version: "3.8"

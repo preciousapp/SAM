@@ -48,7 +48,7 @@ jobs:
       - name: Push to Replicate
         run: |
           if [ -n "${{ inputs.model_name }}" ]; then
-            cog push r8.im/${{ inputs.model_name }}
+            cog push --use-cog-base-image=false r8.im/${{ inputs.model_name }}
           else
             cog push
           fi
